@@ -1,0 +1,154 @@
+.body{
+   margin: 0;
+   padding: 0;
+   
+}
+.toparea{
+   padding: 10px 0;
+   background: #cd6155;
+   color: #fff;
+   text-align: center;
+}
+.logoarea{
+   text-align: center;
+   background: #F2C38B;
+}
+.logoarea img{
+   margin: 20px;
+   width: 100px;
+   height: 100px;
+   text-align: center;
+}
+.logoarea h2{
+   color: #622424;
+   text-shadow: 5px 2px 5px grey;
+}
+.dropdown{
+   color: white;
+   display: inline-block;
+   background: white;
+   width: 20%;
+   border: solid 2px royalblue;
+   border-radius: 5px;
+   padding: 5px;
+}
+.dropdown .fa-globe,.dropdown .dropdown-toggle{
+   color: royalblue;
+}
+.dropdown:hover .fa-globe,.dropdown:hover .dropdown-toggle{
+   color: white;
+}
+.principal{
+   text-align: center;
+   padding: 30px 0;
+}
+.principal p{
+   text-align: justify;
+}
+#signature{
+   text-align: right;
+}
+.coursearea{
+   text-align: center;
+   padding: 60px 0;
+   background-image: url('lib.webp');
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+.coursearea .box{
+   padding: 10px;
+   margin: 20px 0px;
+   background: white;
+}
+.coursearea .box img{
+   margin: 30px 0;
+   width: 150px;
+   height: 150px;
+   transition: all 4s;
+}
+.coursearea .box:hover img{
+   transform: rotate(360deg);
+}
+.coursearea p{
+   background: white;
+   padding: 30px;
+}
+.coursearea h5{
+   padding-bottom: 30px;
+}
+.coursearea a:link,.coursearea a:visited{
+   color:brown;
+   font-weight: bolder;
+   text-decoration: none;
+}
+.achievement{
+   text-align: center;
+   padding: 20px 0;
+   
+}
+.achievement .box{
+   box-shadow: 5px 5px 5px grey;
+   text-align: center;
+   margin: 20px 0;
+   transition: all 2s;
+}
+.achievement .box:hover{
+   transform: scale(1.2,1.2);
+}
+.achievement .box img{
+   width: 150px;
+   height: 100px;
+   text-align: center;
+}
+.achievement h4{
+   line-height: 30px;
+   padding: 10px 0;
+   color: #622424;
+}
+.alumni{
+   padding: 10px 0;
+   background-image: url('alumnibg.jpg') ;
+   background-size: 100% 100%;
+   border-top: solid 10px black;
+   height: 300px;
+   text-align: center;
+}
+.alumni .box{  
+   margin-top: 30px;
+}
+.footarea{
+   background: #0B0B0F;
+   color: #f2c38b;
+}
+.footarea a{
+   line-height: 15px;
+   transition: all 2s;
+}
+.fa-paper-plane{
+   color: #91573b;
+}
+.footarea a:link,.footarea a:visited{
+   color:#91573b;
+   text-decoration: none;
+   font-weight: bolder;
+}
+.footarea a:hover{
+   color: #91573b;
+   transform: translateY(5px);
+   font-weight: bolder;
+}
+.footarea h4{
+   border-left: solid 5px white;
+   padding: 0 10px;
+   margin: 10px 0;
+   color: white;
+   font-weight: bolder;
+   font-size: 20px;
+}
+.foot-line{
+   background-image: linear-gradient(to right, transparent, white, transparent);
+   width: 100%;
+   height: 1px;
+   margin: 15px 0;
+}
